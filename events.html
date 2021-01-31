@@ -17,25 +17,59 @@
         <div class="col-sm-3">
             <img src="./assets/images/thornbush-truck.jpg" alt="" style="height: auto; width: 90%" class="logo" />
         </div>
-        <a href="./home.html" class="col-sm-3">Home</a>
-        <a href="./events.html" class="col-sm-3">Events</a>
-        <a href="./gallery.html" class="col-sm-3">Gallery</a>
+        <a href="./home.html" class="col-sm-3 home">Home</a>
+        <a href="./events.html" class="col-sm-3 events">Events</a>
+        <a href="./gallery.html" class="col-sm-3 gallery">Gallery</a>
     </div>
 
-    <br>
+    <br />
 
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23616161&amp;ctz=America%2FChicago&amp;src=dmY5MzQ3bGowdmpjcG5nb3I1Mm1wMDY2M2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23B39DDB&amp;color=%230B8043&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1" style="border:solid 1px #777; float: left;" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <iframe
+        src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23616161&amp;ctz=America%2FChicago&amp;src=dmY5MzQ3bGowdmpjcG5nb3I1Mm1wMDY2M2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23B39DDB&amp;color=%230B8043&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1"
+        style="border: solid 1px #777" width="1900" height="600" frameborder="0" scrolling="no"></iframe>
 
-    <h2>Suggestions for events or the course!</h2>
-
-    <div id="formcontainer">
-        <form id="form1" name="form1" method="post" action="">
-            <label>
-            <textarea name="input" id="input" cols="45" rows="5"></textarea>
-            </label>
-            <input Onclick="submitters()" type="button" name="export" id="export" value="Submit" />
-
-            </form>
+    <div class="container">
+        <form action="action_page.php" method="POST">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Course Select:</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                        <option value="drift course">Drift Course</option>
+                        <option value="crawling course">Crawling Course</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Suggestions:</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Course suggestions, event suggestions, we want to hear them all!"
+                        style="height: 200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit" id="submitBtn"/>
+            </div>
+        </form>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
