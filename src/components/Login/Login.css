@@ -1,0 +1,19 @@
+.loginForm {
+    width: 50%;
+    margin: auto;
+    background-color: lime;
+    border-radius: 10px;
+}
+
+.loginContainer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+label {
+    font-size: 40px;
+}
+
+.loginHeader {
+    font-size: 60px;
+}

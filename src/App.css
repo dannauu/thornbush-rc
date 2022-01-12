@@ -1,0 +1,22 @@
+body {
+  background-color: black !important;
+  font-family: 'Teko', sans-serif !important;
+  padding-top: 15px;
+}
+
+.logo {
+  height: 95px;
+  width: auto;
+}
+
+.navbar {
+  background-color: limegreen;
+  font-size: 35px;
+  color: black;
+  box-shadow: 0 4px 12px -2px rgb(0, 255, 8);
+}
+
+.nav-link {
+    color: black !important;
+}
+

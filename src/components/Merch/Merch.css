@@ -1,0 +1,24 @@
+.carouselDiv {
+      width: 100%;
+  }
+
+  .img-thumbnail {
+      width: 200px;
+      margin: auto;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .merchDiv {
+    box-shadow: 0 4px 12px -2px rgb(0, 255, 8);
+  }
+
+  .merchHeading {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+
+.carousel-caption {
+    color: lime;
+}
