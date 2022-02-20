@@ -1,21 +1,61 @@
-import React from 'react'
+import { useState } from 'react'
 import { Container } from 'react-bootstrap'
 import './Login.css'
 
 const Login = () => {
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+
+    async function loginUser(event) {
+		event.preventDefault()
+
+		const response = await fetch('http://localhost:3001/login', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify({
+				email,
+				password,
+			}),
+		})
+
+		const data = await response.json()
+
+		if (data.user) {
+			localStorage.setItem('token', data.user)
+			window.location.href = '/'
+		} else {
+			alert('Please check your username and password')
+		}
+	}
+
     return (
         <Container className='loginContainer'>
-            <form className='loginForm'>
+            <form className='loginForm' onSubmit={loginUser}>
                 <h3 className='loginHeader'>Login</h3>
 
                 <div className="form-group">
                     <label>Email address</label>
-                    <input type="email" className="form-control text-center" placeholder="Enter email" />
+                    <input
+					value={email}
+					onChange={(e) => setEmail(e.target.value)}
+					type="email"
+					placeholder="Email"
+                    className="form-control text-center"
+				/>
                 </div>
 
                 <div className="form-group">
                     <label>Password</label>
-                    <input type="password" className="form-control text-center" placeholder="Enter password" />
+                    <input
+					value={password}
+					onChange={(e) => setPassword(e.target.value)}
+					type="password"
+					placeholder="Password"
+                    className="form-control text-center"
+
+				/>
                 </div>
 
                 <div className="form-group">
@@ -25,10 +65,10 @@ const Login = () => {
                     </div>
                 </div>
 
-                <button type="submit" className="btn btn-primary btn-block">Submit</button>
-                <p className="forgot-password text-right">
-                    Forgot <a href="#">password?</a>
-                </p>
+                <button type="submit" className="submitBtn">Submit</button>
+                {/* <p className="forgot-password text-right">
+                    Forgot <a>password?</a>
+                </p> */}
             </form>
         </Container>
         

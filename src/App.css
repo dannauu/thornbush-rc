@@ -1,16 +1,15 @@
 body {
   background-color: black !important;
   font-family: 'Teko', sans-serif !important;
-  padding-top: 15px;
 }
 
 .logo {
-  height: 95px;
+  height: 120px;
   width: auto;
 }
 
 .navbar {
-  background-color: limegreen;
+  background-color: #0BE348;
   font-size: 35px;
   color: black;
   box-shadow: 0 4px 12px -2px rgb(0, 255, 8);

@@ -1,0 +1,46 @@
+.signUpForm {
+    width: 50%;
+    margin: auto;
+    background-color: lime;
+    border-radius: 10px;
+}
+
+.signUpContainer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+label {
+    font-size: 40px;
+}
+
+.signUpHeader {
+    font-size: 60px;
+}
+
+.signUpBtn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: lime;
+}
+
+.alreadyHaveAcc {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.clickHere {
+    color: purple;
+}
+
+.clickHere:hover {
+    color: red;
+}
+
+.form-control {
+    font-size: 29px;
+}

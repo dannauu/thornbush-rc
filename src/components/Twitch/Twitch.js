@@ -1,7 +1,6 @@
 import React from "react"
 import ReactPlayer from "react-player"
 import './Twitch.css'
-import { Container } from 'react-bootstrap';
 import { FaTwitch } from "react-icons/fa";
 
 function App() {

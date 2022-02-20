@@ -17,3 +17,17 @@ label {
 .loginHeader {
     font-size: 60px;
 }
+
+.submitBtn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: lime;
+}
+
+.form-control {
+    font-size: 29px;
+}

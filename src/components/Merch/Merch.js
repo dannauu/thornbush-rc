@@ -8,6 +8,7 @@ const Merch = () => {
   return (
     <div className="merchDiv">
       <h1 className="text-center mt-4 display-5 merchHeading">New Merch!</h1>
+      <h4 className="text-center merchSubHeading">Winter Sale <a href="/shop">CLICK HERE</a></h4>
       <Container className="carouselContainer">
         <div className="carouselDiv">
           <Carousel>

@@ -24,12 +24,12 @@ const Faq = () => {
       {
         title: "What do I get for winning an event?",
         content:
-          "Sometimes there are cash prizes and most of the time it's braggin rights!",
+          "Sometimes there are cash prizes depending on the event but most of the time it's braggin' rights!",
       },
       {
         title: "Do I need a specific RC truck for the crawler course?",
         content:
-          "It is deisgned for 1.9 scale but you can run anything you would like on it!",
+          "It is deisgned for 1.9 scale but you can run anything you would like on it. (AS long as it won't harm the course in anyway)",
       },
       {
         title: "What are the hours for Thornbush park?",
@@ -47,27 +47,6 @@ const Faq = () => {
           "Can I donate money to better the course and or buy equipment for the course?",
         content:
           "Yes! Although never required, we do accept donations for the course and equipment!",
-      },
-      {
-        title: "",
-        content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-                Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-                Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-                Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
-      },
-      {
-        title: "How do I disband my team?",
-        content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-                Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-                Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-                Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
-      },
-      {
-        title: "Why is it taking so long to find a match?",
-        content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-                Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-                Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-                Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
       },
     ],
   };

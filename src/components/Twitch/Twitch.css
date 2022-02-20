@@ -1,10 +1,10 @@
 .twitchDiv {
     width: 100%;
-    box-shadow: 0 4px 12px -2px rgb(0, 255, 8);
+    /* box-shadow: 0 4px 12px -2px rgb(0, 255, 8); */
     margin-top: 5px;
 }
 
 .twitchHeading {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: blueviolet;
 }

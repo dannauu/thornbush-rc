@@ -2,3 +2,19 @@
     font-size: 75px;
     color: white;
 }
+
+.sendMsg {
+    background-color: white;
+    font-size: 40px;
+    border-radius: 5px;
+}
+
+.success {
+    color: green;
+    font-size: 50px;
+}
+
+.successMsg {
+    text-align: center;
+    margin-top: 100px;
+}

@@ -11,7 +11,7 @@
   }
 
   .merchDiv {
-    box-shadow: 0 4px 12px -2px rgb(0, 255, 8);
+    /* box-shadow: 0 4px 12px -2px rgb(0, 255, 8); */
   }
 
   .merchHeading {
@@ -21,4 +21,19 @@
 
 .carousel-caption {
     color: lime;
+}
+
+.merchSubHeading {
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: lime;
+  cursor: pointer;
 }

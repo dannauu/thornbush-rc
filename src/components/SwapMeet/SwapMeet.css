@@ -1,0 +1,45 @@
+.swapMeetHeader {
+  color: rgb(255, 255, 255);
+  margin-top: 40px;
+  font-size: 70px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navButton {
+  width: 60%;
+  height: 50%;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: 80px;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+.orColumn {
+  height: 200px;
+  line-height: 300px;
+  text-align: center;
+  color: lime;
+  font-size: 100px;
+}
+
+.swapmeetRow {
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
+
+.swapmeetContainer {
+  /* box-shadow: 0 4px 12px -2px rgb(0, 255, 8); */
+}
+
+a {
+  color: black;
+}
+
+.btnColumn {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

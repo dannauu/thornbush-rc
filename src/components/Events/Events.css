@@ -1,32 +1,32 @@
 .eventsContainer {
-  background-image: url(../assets/img/eventsBackground.jpg);
+  /* background-image: url(../assets/img/eventsBackground.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #464646;
-  height: 1000px;
-  box-shadow: 0 4px 25px -2px rgb(0, 255, 8);
+  background-color: #464646; */
+  /* height: 1000px;
+  box-shadow: 0 4px 25px -2px rgb(0, 255, 8); */
 }
 
 .eventHeader {
   font-size: 100px;
   margin-top: 100px;
   color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.392);
+  /* background-color: rgba(0, 0, 0, 0.392); */
   border-radius: 10px;
 }
 
 .eventSubHeader {
   font-size: 75px;
   margin-top: 40px;
-  background-color: rgba(0, 0, 0, 0.392);
+  /* background-color: rgba(0, 0, 0, 0.392); */
   color: rgb(255, 255, 255);
   border-radius: 10px;
 }
 
 .saveTheDate {
-  background-color: rgba(0, 0, 0, 0.392);
+  /* background-color: rgba(0, 0, 0, 0.392); */
   margin-right: 13px;
   margin-left: 13px;
   margin-top: 40px;
@@ -36,7 +36,7 @@
 }
 
 .where {
-  background-color: rgba(0, 0, 0, 0.392);
+  /* background-color: rgba(0, 0, 0, 0.392); */
   margin-right: 13px;
   margin-left: 13px;
   margin-top: 40px;
@@ -47,4 +47,18 @@
 
 h2 {
   text-align: center;
+}
+
+.timeSpan {
+  color: lime;
+}
+
+.eventh1 {
+  color: lime;
+  font-size: 50px;
+}
+
+.eventh2 {
+  color: rgb(255, 255, 255);
+  font-style: italic;
 }

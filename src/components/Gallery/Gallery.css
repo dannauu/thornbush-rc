@@ -100,3 +100,15 @@
     color: #ffffff;
     cursor: pointer;
 }
+
+#bgVid {
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

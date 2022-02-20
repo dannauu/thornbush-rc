@@ -5,6 +5,7 @@ import Merch from "../Merch/Merch";
 import Socials from "../Socials/Socials";
 import Welcome from "../Welcome/Welcome";
 import Twitch from "../Twitch/Twitch";
+import Youtube from "../Youtube/Youtube";
 
 const Home = () => {
   return (
@@ -17,6 +18,11 @@ const Home = () => {
           </Col>
           <Col>
             <Twitch />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Youtube />
           </Col>
         </Row>
       </Container>

@@ -1,0 +1,51 @@
+const product_card = [
+  {
+    id: 1,
+    product_name: "Thornbush Tumbler",
+    description:"Custom made Thornbush RC tumbler, made by Mike himself!",
+    price: 19.99,
+    currency: "$",
+    thumb: require('./img/tumbler.jfif'),
+  },
+  {
+    id: 2,
+    product_name: "Thornbush Hoodie",
+    description:"Thornbush Logo hoodie",
+    price: 39.99,
+    currency: "$",
+    thumb: require('../assets/img/shirt4.jfif'),
+  },
+  // {
+  //   id: 3,
+  //   product_name: "Axial Deadbolt",
+  //   description:"Here is the brief description for each item that gets posted",
+  //   price: 350,
+  //   currency: "$",
+  //   thumb: require('./img/axialDeadbolt.jpg'),
+  // },
+  // {
+  //   id: 4,
+  //   product_name: "Rayes Alpha",
+  //   description:"Here is the brief description for each item that gets posted",
+  //   price: 350,
+  //   currency: "$",
+  //   thumb: require('./img/axle.jpg'),
+  // },
+  // {
+  //   id: 5,
+  //   product_name: "Rayes Z30",
+  //   description:"Here is the brief description for each item that gets posted",
+  //   price: 250,
+  //   currency: "$",
+  //   thumb: require('./img/ProtekServo.jpg'),
+  // },
+  // {
+  //   id: 6,
+  //   product_name: "Rayes X30",
+  //   description:"Here is the brief description for each item that gets posted",
+  //   price: 350,
+  //   currency: "$",
+  //   thumb: require('./img/ProtekServo.jpg'),
+  // },
+];
+export default product_card;
