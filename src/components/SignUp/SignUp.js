@@ -14,7 +14,7 @@ const SignUp = () => {
     async function registerUser(event) {
         event.preventDefault()
 
-        const response = await fetch('http://localhost:3001/signup', {
+        const response = await fetch('https://frozen-hamlet-78562.herokuapp.com/signup', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
