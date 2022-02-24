@@ -15,6 +15,8 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 
+// mongodb+srv://dannau:<Jesse2020!>@cluster0.dildz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/thornbushrc", { useNewUrlParser: true });
 
 app.post('/signup', async (req, res) => {
