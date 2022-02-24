@@ -9,11 +9,12 @@ const bcrypt = require('bcrypt')
 const PORT = process.env.PORT || 3001;
 const mongojs = require('mongojs')
 
-const db = mongojs('mongodb+srv://dannau:<Jesse2020!>@cluster0.dildz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+const db = mongojs('thornbushrc')
 
 app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
+
 
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/thornbushrc", { useNewUrlParser: true });
